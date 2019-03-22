@@ -26,14 +26,14 @@ function gutenberg_add_section_alignment_test( $settings, $post ) {
 	function block_image($alignment='') {
 		return array( 'core/image', array(
 			'align' => $alignment,
-			'url' => 'http://localhost:8888/wp-content/uploads/2019/03/20181028_133636.jpg'
+			'url' => GUTENBERG_SB_ALIGNMENT_TESTER_IMAGE_URL
 		) );
 	}
 
 	function block_cover($alignment='') {
 		return array( 'core/cover', array(
 			'align' => $alignment,
-			'url' => 'http://localhost:8888/wp-content/uploads/2019/03/20181028_133636.jpg'
+			'url' => GUTENBERG_SB_ALIGNMENT_TESTER_IMAGE_URL
 		) );
 	}
 
@@ -41,7 +41,7 @@ function gutenberg_add_section_alignment_test( $settings, $post ) {
 		return array( 'core/media-text', array(
 			'align' => $alignment,
 			'customBackgroundColor' => '#ff0000',
-			'mediaUrl' => 'http://localhost:8888/wp-content/uploads/2019/03/20181028_133636.jpg',
+			'mediaUrl' => GUTENBERG_SB_ALIGNMENT_TESTER_IMAGE_URL,
 			'mediaType' => 'image',
 		), array(
 			array( 'core/paragraph', array(
@@ -77,22 +77,22 @@ function gutenberg_add_section_alignment_test( $settings, $post ) {
 			'align' => $alignment,
 			'images' => array(
 				array(
-					'url' => 'http://localhost:8888/wp-content/uploads/2019/03/20181028_133636.jpg'
+					'url' => GUTENBERG_SB_ALIGNMENT_TESTER_IMAGE_URL
 				),
 				array(
-					'url' => 'http://localhost:8888/wp-content/uploads/2019/03/20181028_133636.jpg'
+					'url' => GUTENBERG_SB_ALIGNMENT_TESTER_IMAGE_URL
 				),
 				array(
-					'url' => 'http://localhost:8888/wp-content/uploads/2019/03/20181028_133636.jpg'
+					'url' => GUTENBERG_SB_ALIGNMENT_TESTER_IMAGE_URL
 				),
 				array(
-					'url' => 'http://localhost:8888/wp-content/uploads/2019/03/20181028_133636.jpg'
+					'url' => GUTENBERG_SB_ALIGNMENT_TESTER_IMAGE_URL
 				),
 				array(
-					'url' => 'http://localhost:8888/wp-content/uploads/2019/03/20181028_133636.jpg'
+					'url' => GUTENBERG_SB_ALIGNMENT_TESTER_IMAGE_URL
 				),
 				array(
-					'url' => 'http://localhost:8888/wp-content/uploads/2019/03/20181028_133636.jpg'
+					'url' => GUTENBERG_SB_ALIGNMENT_TESTER_IMAGE_URL
 				)
 			)
 		) );
