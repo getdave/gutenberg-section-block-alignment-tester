@@ -26,14 +26,14 @@ function gutenberg_add_section_alignment_test( $settings, $post ) {
 	function block_image($alignment='') {
 		return array( 'core/image', array(
 			'align' => $alignment,
-			'url' => GUTENBERG_SB_ALIGNMENT_TESTER_IMAGE_URL
+			'url' => 'https://cldup.com/Fz-ASbo2s3.jpg'
 		) );
 	}
 
 	function block_cover($alignment='') {
 		return array( 'core/cover', array(
 			'align' => $alignment,
-			'url' => GUTENBERG_SB_ALIGNMENT_TESTER_IMAGE_URL
+			'url' => 'https://cldup.com/Fz-ASbo2s3.jpg'
 		) );
 	}
 
@@ -41,7 +41,7 @@ function gutenberg_add_section_alignment_test( $settings, $post ) {
 		return array( 'core/media-text', array(
 			'align' => $alignment,
 			'customBackgroundColor' => '#ff0000',
-			'mediaUrl' => GUTENBERG_SB_ALIGNMENT_TESTER_IMAGE_URL,
+			'mediaUrl' => 'https://cldup.com/Fz-ASbo2s3.jpg',
 			'mediaType' => 'image',
 		), array(
 			array( 'core/paragraph', array(
@@ -77,22 +77,22 @@ function gutenberg_add_section_alignment_test( $settings, $post ) {
 			'align' => $alignment,
 			'images' => array(
 				array(
-					'url' => GUTENBERG_SB_ALIGNMENT_TESTER_IMAGE_URL
+					'url' => 'https://cldup.com/Fz-ASbo2s3.jpg'
 				),
 				array(
-					'url' => GUTENBERG_SB_ALIGNMENT_TESTER_IMAGE_URL
+					'url' => 'https://cldup.com/Fz-ASbo2s3.jpg'
 				),
 				array(
-					'url' => GUTENBERG_SB_ALIGNMENT_TESTER_IMAGE_URL
+					'url' => 'https://cldup.com/Fz-ASbo2s3.jpg'
 				),
 				array(
-					'url' => GUTENBERG_SB_ALIGNMENT_TESTER_IMAGE_URL
+					'url' => 'https://cldup.com/Fz-ASbo2s3.jpg'
 				),
 				array(
-					'url' => GUTENBERG_SB_ALIGNMENT_TESTER_IMAGE_URL
+					'url' => 'https://cldup.com/Fz-ASbo2s3.jpg'
 				),
 				array(
-					'url' => GUTENBERG_SB_ALIGNMENT_TESTER_IMAGE_URL
+					'url' => 'https://cldup.com/Fz-ASbo2s3.jpg'
 				)
 			)
 		) );
